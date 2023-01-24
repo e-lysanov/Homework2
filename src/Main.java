@@ -3,7 +3,8 @@ public class Main {
         task1();
         task2();
         task3();
-        //task4();
+        task4();
+        task5();
     }
 
     public static void task1 () {
@@ -43,5 +44,27 @@ public class Main {
         var paper = 763789;
         paper = paper - 7639;
         System.out.println(paper);
+    }
+    public static void task4 () {
+        System.out.println("Задача 4");
+        // Пишем код для задачи 4
+        var friend = 19.0;
+        System.out.println(friend);
+        friend = friend + 2.0;
+        System.out.println(friend);
+        friend = friend / 7.0;
+        System.out.println(friend);
+    }
+    public static void task5 () {
+        System.out.println("Задача 5");
+        // Пишем код для задачи 5
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10.0;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4.0;
+        System.out.println(frog);
     }
 }
